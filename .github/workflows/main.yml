@@ -17,4 +17,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSHKEY }}
           script: |
-            "cd /home/ubuntu/devops && ./deploy.sh"
+            "cd /home/ubuntu/devops && /home/ubuntu/devops/deploy.sh"
