@@ -18,4 +18,5 @@ jobs:
           key: ${{ secrets.SSHKEY }}
           script: |
              cd /home/ubuntu/devops
+             chmod +x deploy.sh
              ./deploy.sh
